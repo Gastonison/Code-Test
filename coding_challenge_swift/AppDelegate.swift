@@ -16,27 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        func test() {
-            func addTwoDigits(n: Int) -> Int {
-                
-                let str = "\(n)"
-                let array = str.characters.map{Int(String($0))!}
-                
-                var val = 0
-                for num in array {
-                    val += num
-                }
-                return val
-            }
-            print(addTwoDigits(n: 25))
-        }
-        
-        
-        
-        test()
-        
-        
+
         return true
     }
 
